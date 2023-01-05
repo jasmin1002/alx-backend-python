@@ -3,7 +3,7 @@ import math
 """Basic Annotations"""
 
 
-def floor(n: float) -> float:
+def floor(n: float) -> int:
     """floor function with PEP 484 type annotations
     It rounds input number to the nearest whole no.
 
