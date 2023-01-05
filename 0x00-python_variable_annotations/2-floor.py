@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-import math
 """Basic Annotations"""
+import math
 
 
 def floor(n: float) -> int:
@@ -11,6 +11,6 @@ def floor(n: float) -> int:
         n: number to round off
 
     Returns:
-        Value return is decimal number
+        Value return is integer number
     """
     return math.floor(n)
