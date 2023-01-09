@@ -4,7 +4,7 @@ import asyncio
 import random
 
 
-async def wait_random(max_delay = 10):
+async def wait_random(max_delay: int = 10) -> float:
     """
     Async wait_random delays program within of [0 - max_delay)
     or [0 - max_delay] depending on rounding
